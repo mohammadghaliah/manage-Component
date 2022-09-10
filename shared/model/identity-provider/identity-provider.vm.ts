@@ -1,6 +1,6 @@
 export class IdentityProvider {
   constructor() {}
-  identityProvidersId: number;
+  identityProvidersId: number = 1;
   accountId: number;
   name: string;
   description: string;

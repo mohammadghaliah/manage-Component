@@ -13,4 +13,8 @@ import { ManageComponent } from './ManageComponent';
 export class AppComponent extends ManageComponent<
   IdentityProvider,
   IdentityProviderFilter
-> {}
+> {
+  constructor() {
+    super(IdentityProvider);
+  }
+}
