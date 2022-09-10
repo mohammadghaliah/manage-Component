@@ -1,9 +1,9 @@
 import { Component, VERSION } from '@angular/core';
-import { ManageComponent } from '../../ManageComponent';
 import {
   IdentityProvider,
   IdentityProviderFilter,
 } from '../../shared/model/identity-provider/identity-provider.vm';
+import { ManageComponent } from './ManageComponent';
 
 @Component({
   selector: 'my-app',
